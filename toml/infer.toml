@@ -1,0 +1,13 @@
+# Inference configuration file
+
+[model]
+type = 'stereopilot'
+# Base model path (contains VAE and T5 encoder)
+ckpt_path = './ckpt/Wan2.1-T2V-1.3B'
+# Transformer weights path
+transformer_path = './ckpt/StereoPilot.safetensors'
+# Pretrained weights path (contains domain embeddings)
+pretrained_path = './ckpt/StereoPilot.safetensors'
+# Data types
+dtype = 'bfloat16'
+transformer_dtype = 'float8'

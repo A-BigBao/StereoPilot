@@ -1,0 +1,32 @@
+# StereoPilot - Stereo Video Generation
+# Core dependencies for inference
+
+# PyTorch
+torch==2.4.1
+torchvision==0.19.1
+
+# Model loading and inference
+accelerate==1.5.2
+safetensors==0.5.3
+transformers==4.50.0
+tokenizers==0.21.1
+
+# Video/Image processing
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+pillow==11.1.0
+opencv-python==4.11.0.86
+
+# Configuration
+toml==0.10.2
+
+# Wan2.1 model dependencies
+diffusers==0.32.2
+easydict==1.13
+ftfy==6.3.1
+numpy>=1.23.5,<2
+
+# Optional: for faster attention (requires CUDA)
+# flash-attn==2.7.4.post1
+# module load cuda/12.1
+# pip install flash-attn==2.7.4.post1 --no-build-isolation
