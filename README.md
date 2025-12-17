@@ -157,7 +157,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) - Base video generation model
-- [Diffusion Pipe](https://github.com/tdrussell/diffusion-pipe) - Training Code Base
+- [Diffusion Pipe](https://github.com/tdrussell/diffusion-pipe) - Training code base
 
 ## 🌟 Citation
 
