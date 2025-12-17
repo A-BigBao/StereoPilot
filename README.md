@@ -8,7 +8,7 @@
 
 ### [[Project Page]](https://hit-perfect.github.io/StereoPilot/) [arXiv] [Dataset]
 
-_**[Guibao Shen](https://a-bigbao.github.io)<sup>1,3*†</sup>, [Yihua Du](https://hit-perfect.github.io)<sup>1*</sup>, [Wenhang Ge](https://g3956.github.io/wenhangge.github.io/)<sup>1,3*†</sup>, [Jing He](https://jingheya.github.io)<sup>1</sup>, [Chirui Chang](https://hit-perfect.github.io/StereoPilot/)<sup>3</sup>, [Donghao Zhou](https://hit-perfect.github.io/StereoPilot/)<sup>4</sup>, [Zhen Yang](https://zhenyangcs.github.io/)<sup>1</sup>, [Luozhou Wang](https://wileewang.github.io)<sup>1</sup>, [Xin Tao](https://www.xtao.website)<sup>3</sup>, [Ying-Cong Chen](https://www.yingcong.me)<sup>1,2‡</sup>**_
+_**[Guibao Shen](https://a-bigbao.github.io)<sup>1,3*†</sup>, [Yihua Du](https://hit-perfect.github.io)<sup>1*</sup>, [Wenhang Ge](https://g3956.github.io/wenhangge.github.io/)<sup>1,3*†</sup>, [Jing He](https://jingheya.github.io)<sup>1</sup>, [Chirui Chang](https://hit-perfect.github.io/StereoPilot/)<sup>3</sup>, [Donghao Zhou](https://correr-zhou.github.io/)<sup>4</sup>, [Zhen Yang](https://zhenyangcs.github.io/)<sup>1</sup>, [Luozhou Wang](https://wileewang.github.io)<sup>1</sup>, [Xin Tao](https://www.xtao.website)<sup>3</sup>, [Ying-Cong Chen](https://www.yingcong.me)<sup>1,2‡</sup>**_
 
 <sup>1</sup>HKUST(GZ), <sup>2</sup>HKUST, <sup>3</sup>Kling Team, Kuaishou Technology, <sup>4</sup>CUHK
 
@@ -22,17 +22,15 @@ _**[Guibao Shen](https://a-bigbao.github.io)<sup>1,3*†</sup>, [Yihua Du](https
 
 <div align="center">
 
-[![Watch the showcase video](./asset/showcase_preview.jpg)](./asset/showcase.mp4)
+[![Watch the video](./asset/showcase_preview.png)](https://www.youtube.com/watch?v=P14q02ajKT0)
 
-**🎬 Click the image above to download the showcase video**
-
-*Note: The video file is ~80MB. You can also view it on our [Project Page](https://hit-perfect.github.io/StereoPilot/).*
+**🎬 Click the image to view our demo video**
 
 </div>
 
 ## 🔥 Updates
 
-- __[2025.12.16]__: Release inference code and [Project Page](https://hit-perfect.github.io/StereoPilot/) (Hope you like it).
+- __[2025.12.16]__: Release inference code and [Project Page](https://hit-perfect.github.io/StereoPilot/).
 
 
 ## ⚙️ Requirements
@@ -48,7 +46,7 @@ Our inference environment:
 **Step 1:** Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/KlingTeam/StereoPilot.git
 
 cd StereoPilot
 ```
@@ -75,7 +73,7 @@ Place the following files in the `ckpt/` directory:
 
 | File | Description |
 |------|-------------|
-| [`StereoPilot.safetensors`](https://huggingface.co/xxx/StereoPilot) | StereoPilot model weights |
+| [`StereoPilot.safetensors`](https://huggingface.co/KlingTeam/StereoPilot) | StereoPilot model weights |
 | [`Wan2.1-T2V-1.3B`](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) | Base Wan2.1 model directory |
 
 Download StereoPilot.safetensor & Wan2.1-1.3B base model:
@@ -83,7 +81,7 @@ Download StereoPilot.safetensor & Wan2.1-1.3B base model:
 ```bash
 pip install "huggingface_hub[cli]"
 
-huggingface-cli download Kling/********* --local-dir ./ckpt/StereoPilot.safetensors
+huggingface-cli download KlingTeam/StereoPilot StereoPilot.safetensors --local-dir ./ckpt
 
 huggingface-cli download Wan-AI/Wan2.1-T2V-1.3B --local-dir ./ckpt/Wan2.1-T2V-1.3B
 ```
@@ -159,6 +157,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) - Base video generation model
+- [Diffusion Pipe](https://github.com/tdrussell/diffusion-pipe) - Training Code Base
 
 ## 🌟 Citation
 
