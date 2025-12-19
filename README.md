@@ -164,10 +164,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find our work helpful, please consider citing:
 
 ```bibtex
-@article{shen2025stereopilot,
+@misc{shen2025stereopilot,
   title={StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors},
   author={Shen, Guibao and Du, Yihua and Ge, Wenhang and He, Jing and Chang, Chirui and Zhou, Donghao and Yang, Zhen and Wang, Luozhou and Tao, Xin and Chen, Ying-Cong},
-  journal={arXiv preprint},
-  year={2025}
+  year={2025},
+  eprint={2512.16915},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2501.03006}, 
 }
 ```
