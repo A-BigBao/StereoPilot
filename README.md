@@ -171,6 +171,6 @@ If you find our work helpful, please consider citing:
   eprint={2512.16915},
   archivePrefix={arXiv},
   primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2501.03006}, 
+  url={https://arxiv.org/abs/2512.16915}, 
 }
 ```
