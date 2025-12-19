@@ -6,9 +6,9 @@
 
 <div align="center">
 
-### [[Project Page]](https://hit-perfect.github.io/StereoPilot/) [arXiv] [Dataset]
+### [[Project Page]](https://hit-perfect.github.io/StereoPilot/) [[arXiv]](https://arxiv.org/abs/2512.16915) [Dataset]
 
-_**[Guibao Shen](https://a-bigbao.github.io)<sup>1,3*†</sup>, [Yihua Du](https://hit-perfect.github.io)<sup>1*</sup>, [Wenhang Ge](https://g3956.github.io/wenhangge.github.io/)<sup>1,3*†</sup>, [Jing He](https://jingheya.github.io)<sup>1</sup>, [Chirui Chang](https://hit-perfect.github.io/StereoPilot/)<sup>3</sup>, [Donghao Zhou](https://correr-zhou.github.io/)<sup>4</sup>, [Zhen Yang](https://zhenyangcs.github.io/)<sup>1</sup>, [Luozhou Wang](https://wileewang.github.io)<sup>1</sup>, [Xin Tao](https://www.xtao.website)<sup>3</sup>, [Ying-Cong Chen](https://www.yingcong.me)<sup>1,2‡</sup>**_
+_**[Guibao Shen](https://dbbpaul.github.io/)<sup>1,3*†</sup>, [Yihua Du](https://hit-perfect.github.io)<sup>1*</sup>, [Wenhang Ge](https://g3956.github.io/wenhangge.github.io/)<sup>1,3*†</sup>, [Jing He](https://jingheya.github.io)<sup>1</sup>, [Chirui Chang](https://hit-perfect.github.io/StereoPilot/)<sup>3</sup>, [Donghao Zhou](https://correr-zhou.github.io/)<sup>4</sup>, [Zhen Yang](https://zhenyangcs.github.io/)<sup>1</sup>, [Luozhou Wang](https://wileewang.github.io)<sup>1</sup>, [Xin Tao](https://www.xtao.website)<sup>3</sup>, [Ying-Cong Chen](https://www.yingcong.me)<sup>1,2‡</sup>**_
 
 <sup>1</sup>HKUST(GZ), <sup>2</sup>HKUST, <sup>3</sup>Kling Team, Kuaishou Technology, <sup>4</sup>CUHK
 
